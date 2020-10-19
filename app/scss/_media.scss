@@ -109,12 +109,14 @@
     border-top: 4px solid #8c001a;
     transition: all 0s;
   }
-  .menu__list-link:hover {
-    border-bottom: 4px solid transparent;
-  }
+ 
   .header__navigation li {
     display: block;
     margin-right: 0;
+    padding-bottom: 0;
+    a{
+      padding: 10px;
+    }
   }
   .header__title {
     font-size: 100px;

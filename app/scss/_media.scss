@@ -1,0 +1,165 @@
+@media (max-width: 970px) {
+  .title {
+    padding: 0;
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .burg__title{
+    margin-right: 10px;
+  }
+  .header__main {
+    padding: 10px;
+  }
+  .slick-prev {
+    left: 120px;
+  }
+  .slick-next {
+    right: 120px;
+  }
+  .container {
+    max-width: 1000px;
+    padding: 0;
+  }
+  .reason__route-title {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .reason__route-desc p {
+    line-height: 20px;
+    margin-top: 5px;
+  }
+}
+@media (max-width: 800px) {
+  .wine__dot--1 {
+    bottom: 450px;
+    left: 300px;
+  }
+}
+@media (max-width: 760px) {
+  .reason__route-inner img{
+    display: none;
+  }
+  .slick-arrow {
+    display: none;
+  }
+  .header__main-inner {
+    border-bottom: 2px solid #8c001a;
+  }
+  .header__text {
+    display: none;
+  }
+  .reason__route-inner img {
+    width: 25%;
+  }
+  .reason__route-desc p {
+    margin-right: 0;
+  }
+}
+@media (max-width: 700px) {
+  .reason__items {
+    margin: 0;
+  }
+  .slick-arrow {
+    display: none;
+  }
+  .title {
+    padding: 0;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .wine__dot--1 {
+    bottom: 390px;
+    left: 360px;
+  }
+  .wine__dot--2 {
+    bottom: 229px;
+    right: 395px;
+  }
+  .wine__dot--3 {
+    left: 300px;
+    bottom: 120px;
+  }
+  .header__navigation {
+    position: relative;
+    display: block;
+  }
+  .menu__btn {
+    display: block;
+    width: 40px;
+    cursor: pointer;
+    height: 4px;
+    position: absolute;
+    right: 40px;
+    top: 10px;
+  }
+  .menu__btn span {
+    display: block;
+    margin-bottom: 10px;
+    background-color: #8c001a;
+    height: 4px;
+  }
+  .menu__list {
+    display: none;
+    padding-top: 30px;
+    text-align: center;
+    border-bottom: 4px solid #8c001a;
+  }
+  .menu__list-link {
+    display: block;
+    border-top: 4px solid #8c001a;
+    transition: all 0s;
+  }
+  .menu__list-link:hover {
+    border-bottom: 4px solid transparent;
+  }
+  .header__navigation li {
+    display: block;
+    margin-right: 0;
+  }
+  .header__title {
+    font-size: 100px;
+    line-height: 135px;
+    margin: auto auto auto auto;
+  }
+
+  .reason__title {
+    margin-right: 0;
+    padding-right: 15px;
+  }
+}
+@media (max-width: 650px) {
+  .slick-arrow {
+    display: none;
+  }
+  .wine__dot {
+    display: none;
+  }
+  .footer__title {
+    text-align: center;
+  }
+  .footer__items {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+  }
+  .footer__item {
+    margin-bottom: 35px;
+  }
+}
+@media (max-width: 500px) {
+  .slick-arrow {
+    display: none;
+  }
+  .reason__items-inner {
+    flex-direction: column;
+  }
+  .reason__item {
+    margin-bottom: 15px;
+  }
+}
+@media (min-width: 700px) {
+  .menu__list {
+    display: flex !important;
+  }
+}
